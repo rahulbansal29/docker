@@ -8,7 +8,7 @@
     sudo apt install -y \
         apt-transport-https \
         ca-certificates \
-        curl \
+ 
         gnupg \
         lsb-release \
         jq
@@ -46,7 +46,7 @@ Apply executable permissions to the binary:
         docker pull nginx
 
 3)Port forward nginx to port 80: <br>
-    `docker run --name mynginxl -p 80:80 -d nginx`
+    `
 
 Open your public ip after successfully executing this commaND.
 
